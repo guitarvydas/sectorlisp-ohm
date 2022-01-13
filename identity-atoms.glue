@@ -1,0 +1,8 @@
+  Main [Header @ident] = [[${ident}]]
+  Header [@octothorpe katoms] = [[]]
+
+  ident [c @cs] = [[${c}${cs}]]
+  identFirst [c] = [[${c}]]
+  identMore [c] = [[${c}]]
+  octothorpe [c] = [[${c}]]
+  

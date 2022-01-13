@@ -1,0 +1,9 @@
+Atoms {
+  Main = Header ident+
+  Header = octothorpe+ "atoms"
+
+      ident = identFirst identMore*
+      identFirst = "A" .. "Z" 
+      identMore = identFirst
+      octothorpe = "#"
+}
