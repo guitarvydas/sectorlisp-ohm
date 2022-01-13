@@ -1,13 +1,5 @@
+#NIL #QUOTE #EQ #COND #COND #ATOM #CAR #CDR # program
 from os import CLD_EXITED
-
-
-kQuote = 6
-kEq = 0
-kCond = 0
-kCons = 0
-kAtom = 0
-kCar = 0
-kCdr = 0
 
 listindex = None # this needs to be set before run
 nextConsCell = None
@@ -295,3 +287,4 @@ nextConsCell = listindex
 r = eval (-14, 0) # example 2
 lispPrint (r)
 terpri ()
+
