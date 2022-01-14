@@ -1,5 +1,7 @@
-  Main [Header @ident] = [[]]
+  Main [Header @ident ProgramHeader] = [[]]
   Header [@octothorpe katoms] = [[]]
+
+  ProgramHeader [@octothorpe kprogram] = [[]]
 
   AtomID [ident] = [[]]
 
