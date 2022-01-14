@@ -8,7 +8,6 @@ exports.pokeNameIntoAtomArray = function (untrimmeds) {
     let s = untrimmeds.trim ()
     result = ""
     let final = (2 * s.length) + atomIndex - 2;
-    console.error (final)
     for (c of s) {
 	if (atomIndex < final) {
 	    n = atomIndex + 2;

@@ -13,4 +13,4 @@ cdir=`pwd`
 
 ../prep/prep '#+ atoms' '#+ program' atoms.ohm atoms-rm.glue <lisp15.scn >temp3.py
 cat temp1.py temp2.py temp3.py >temp.py
-#python temp.py
+python temp.py

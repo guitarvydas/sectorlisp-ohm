@@ -1,5 +1,5 @@
 
-atomMemory = ['N', 2,
+atommemory = ['N', 2,
 'I', 4,
 'L', 0,
 'Q', 8,

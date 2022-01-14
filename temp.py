@@ -8,7 +8,7 @@ kCAR = 0
 kCDR = 0
 
 
-atomMemory = ['N', 2,
+atommemory = ['N', 2,
 'I', 4,
 'L', 0,
 'Q', 8,
@@ -217,9 +217,9 @@ def eval (e, a):
       return e
   elif (isAtom (e)):
       return assoc (e, a)
-  elif (kQuote == car (e)):
+  elif (kQUOTE == car (e)):
       return car (cdr (e))
-  elif (kCond == car (e)):
+  elif (kCOND == car (e)):
       return evcon (cdr (e), a)
   else:
     evl = evlis (cdr (e), a)
@@ -289,15 +289,15 @@ def apply (f, x, a):
     newEnv = pairlis (car (cdr (f)), x, a)
     lambdaForm = car (cdr (cdr (f)))
     return eval (lambdaForm, newEnv)
-  elif (f == kEq):
+  elif (f == kEQ):
     return car (x) == car (cdr (x))
-  elif (f == kCons):
+  elif (f == kCONS):
     return cons (car (x), car (cdr (x)))
-  elif (f == kAtom):
+  elif (f == kATOM):
     return (car (x) >= 0)
-  elif (f == kCar):
+  elif (f == kCAR):
     return car (car (x))
-  elif (f == kCdr):
+  elif (f == kCDR):
     return cdr (car (x))
   else:
     return apply (assoc (f, a), x, a)
