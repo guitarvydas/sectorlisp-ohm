@@ -1,6 +1,7 @@
 Atoms {
-  Main = Header AtomID+
+  Main = Header AtomID+ ProgramHeader
   Header = octothorpe+ "atoms"
+  ProgramHeader = octothorpe+ "program"
 
   AtomID = ident
 
