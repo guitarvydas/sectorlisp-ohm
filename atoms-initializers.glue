@@ -1,5 +1,5 @@
   Main [Header @ident] = [[
-atomMemory = [${ident}]
+atomMemory = [${ident}0]
 ]]
   Header [@octothorpe katoms] = [[]]
 
