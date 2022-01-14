@@ -1,0 +1,12 @@
+  Main [Header @ident] = [[
+atomMemory = [${ident}]
+]]
+  Header [@octothorpe katoms] = [[]]
+
+  AtomID [ident] = [[${support.pokeNameIntoAtomArray (ident)}]]
+
+  ident [c @cs] = [[${c}${cs}]]
+  identFirst [c] = [[${c}]]
+  identMore [c] = [[${c}]]
+  octothorpe [c] = [[${c}]]
+  

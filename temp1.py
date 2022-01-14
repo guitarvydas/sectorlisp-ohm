@@ -1,59 +1,11 @@
-
-atomMemory = [
-
 kNIL = 0
-'N', 1,
-'I', 3,
-'L', 5,
-
-  
-kQUOTE = 6
-'Q', 7,
-'U', 9,
-'O', 11,
-'T', 13,
-'E', 15,
-
-  
-kEQ = 16
-'E', 17,
-'Q', 19,
-
-  
-kCOND = 20
-'C', 21,
-'O', 23,
-'N', 25,
-'D', 27,
-
-  
-kCONS = 28
-'C', 29,
-'O', 31,
-'N', 33,
-'S', 35,
-
-  
-kATOM = 36
-'A', 37,
-'T', 39,
-'O', 41,
-'M', 43,
-
-  
-kCAR = 44
-'C', 45,
-'A', 47,
-'R', 49,
-
-  
-kCDR = 50
-'C', 51,
-'D', 53,
-'R', 55,
-
-  
-]
+kQUOTE = 0
+kEQ = 0
+kCOND = 0
+kCONS = 0
+kATOM = 0
+kCAR = 0
+kCDR = 0
 # program
 from os import CLD_EXITED
 

@@ -1,0 +1,10 @@
+  Main [Header @ident] = [[${ident}]]
+  Header [@octothorpe katoms] = [[]]
+
+  AtomID [ident] = [[k${ident} = ${support.getAtomIndex ()}\n]]
+
+  ident [c @cs] = [[${c}${cs}]]
+  identFirst [c] = [[${c}]]
+  identMore [c] = [[${c}]]
+  octothorpe [c] = [[${c}]]
+  
