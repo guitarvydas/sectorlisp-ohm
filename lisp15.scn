@@ -50,24 +50,6 @@ def putl (v):
   listindex = - (index + 1)
 
 
-atommemory = [
-  "N", 2,
-  "I", 4,
-  "L", 0,
-  "Q", 8,
-  "U", 10,
-  "O", 12,
-  "T", 14,
-  "E", 0,
-  "L", 18,
-  "A", 20,
-  "M", 22,
-  "B", 24,
-  "D", 26,
-  "A", 0,
-  "A", 0,
-  "X", 0
-  ]
 
 def getmem (i):
   if (i >= 0):
