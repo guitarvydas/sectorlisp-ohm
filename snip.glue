@@ -1,0 +1,9 @@
+  main [@preambleStuff programHeader @stuff] = [[${programHeader}${stuff}]]
+
+  preambleStuff [stuff]  = [[${stuff}]]
+  programHeader [@octothorpe @ws1 kprogram @ws2 nl] = [[]]
+  identStart [c] = [[${c}]]
+  stuff [c] = [[${c}]]
+  octothorpe [c] = [[${c}]]
+  ws [c] = [[${c}]]
+  nl [c] = [[${c}]]

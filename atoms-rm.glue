@@ -1,0 +1,10 @@
+  Main [Header @ident] = [[]]
+  Header [@octothorpe katoms] = [[]]
+
+  AtomID [ident] = [[]]
+
+  ident [c @cs] = [[]]
+  identFirst [c] = [[]]
+  identMore [c] = [[]]
+  octothorpe [c] = [[]]
+  

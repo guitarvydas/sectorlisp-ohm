@@ -1,0 +1,12 @@
+Snip {
+  main = preambleStuff* programHeader stuff+
+
+  preambleStuff = ~programHeader stuff
+  programHeader = octothorpe+ ws+ "program" ws* nl
+  identStart = "A" .. "Z" | "a" .. "z" | "_"
+  stuff=any
+  octothorpe = "#"
+  ws = " " | "\t"
+  nl = "\n"
+}
+

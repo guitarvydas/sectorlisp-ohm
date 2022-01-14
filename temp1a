@@ -1,3 +1,12 @@
+kNIL = 0
+kQUOTE = 0
+kEQ = 0
+kCOND = 0
+kCONS = 0
+kATOM = 0
+kCAR = 0
+kCDR = 0
+# program
 from os import CLD_EXITED
 
 listindex = None # this needs to be set before run
@@ -286,5 +295,4 @@ nextConsCell = listindex
 r = eval (-14, 0) # example 2
 lispPrint (r)
 terpri ()
-
 
