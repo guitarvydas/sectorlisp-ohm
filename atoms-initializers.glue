@@ -1,7 +1,9 @@
-  Main [Header @ident] = [[
+  Main [Header @ident ProgramHeader] = [[
 atomMemory = [${ident}0]
+${ProgramHeader}
 ]]
   Header [@octothorpe katoms] = [[]]
+  ProgramHeader [@octothorpe kprogram] = [[${octothorpe} program]]
 
   AtomID [ident] = [[${support.pokeNameIntoAtomArray (ident)}]]
 
