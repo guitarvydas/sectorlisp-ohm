@@ -1,6 +1,6 @@
-  Main [Header @ident ProgramHeader] = [[${ident}]]
+  Main [Header @ident ProgramHeader] = [[${ident}${ProgramHeader}]]
   Header [@octothorpe katoms] = [[]]
-  ProgramHeader [@octothorpe kprogram] = [[]]
+  ProgramHeader [@octothorpe kprogram] = [[${octothorpe} program]]
 
   AtomID [ident] = [[k${ident} = ${support.getAtomIndex ()}\n]]
 
