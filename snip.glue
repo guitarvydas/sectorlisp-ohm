@@ -1,4 +1,4 @@
-  main [@preambleStuff programHeader @stuff] = [[${programHeader}${stuff}]]
+  main [@preambleStuff programHeader @stuff] = [[${preambleStuff}]]
 
   preambleStuff [stuff]  = [[${stuff}]]
   programHeader [@octothorpe @ws1 kprogram @ws2 nl] = [[]]
